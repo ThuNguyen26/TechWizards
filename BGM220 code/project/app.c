@@ -8,8 +8,10 @@
 #include <stdlib.h>
 #define DHT_PORT gpioPortC
 #define DHT_PIN 7
+
 DHT dht;
 Pzem p;
+
 //extern short sample;
 // Periodic timer handle.
 static app_timer_t app_periodic_timer_data, app_periodic_timer_control;
